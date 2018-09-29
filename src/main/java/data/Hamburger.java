@@ -11,6 +11,10 @@ public class Hamburger {
         this.bun = bun;
     }
 
+    public String getBun() {
+        return bun;
+    }
+
     public double getPrice() {
         return price;
     }

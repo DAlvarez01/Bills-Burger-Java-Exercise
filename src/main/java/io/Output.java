@@ -2,6 +2,8 @@ package io;
 
 public class Output {
     String name1;
+    String meat;
+    String bun;
     String name2;
     String name3;
     String name4;
@@ -21,6 +23,14 @@ public class Output {
 
     public void setName1(String name1) {
         this.name1 = name1;
+    }
+
+    public void setMeatName(String meat) {
+        this.meat = meat;
+    }
+
+    public void setBunName(String bun) {
+        this.bun = bun;
     }
 
     public void setName2(String name2) {
@@ -81,6 +91,8 @@ public class Output {
         System.out.println(" ");
         System.out.println(" ");
         System.out.println(name1 + "  $" + price1);
+        System.out.println("Meat type: " + meat);
+        System.out.println("Bun type: " + bun);
         System.out.println(name2 + "  $" + price2);
         System.out.println(name3 + "  $" + price3);
         System.out.println(name4 + "  $" + price4);
