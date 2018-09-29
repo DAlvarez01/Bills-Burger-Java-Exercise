@@ -16,7 +16,6 @@ public class Input {
     int t;
     int[] sidet = new int[6];
 
-
     private Scanner sc;
 
     public Input() {
@@ -69,7 +68,7 @@ public class Input {
         if (sidet[4] != 0) side5 = sidet[4];
         if (sidet[5] != 0) side6 = sidet[5];
 
-        scannerClose();
+        //scannerClose();
 
         return new Order(t, meat, bun, side1, side2, side3, side4, side5, side6);
     }
