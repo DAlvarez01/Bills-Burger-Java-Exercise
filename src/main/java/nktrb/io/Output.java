@@ -1,4 +1,4 @@
-package io;
+package nktrb.io;
 
 public class Output {
     String name1;

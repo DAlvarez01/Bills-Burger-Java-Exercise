@@ -1,4 +1,4 @@
-package data;
+package nktrb.data;
 
 public class Hamburger {
     double price;

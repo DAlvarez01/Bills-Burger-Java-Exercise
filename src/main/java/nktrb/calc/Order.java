@@ -1,7 +1,7 @@
-package calc;
+package nktrb.calc;
 
-import data.*;
-import io.*;
+import nktrb.data.*;
+import nktrb.io.*;
 
 public class Order {
     String meat;

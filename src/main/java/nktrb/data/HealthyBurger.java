@@ -1,4 +1,4 @@
-package data;
+package nktrb.data;
 
 public class HealthyBurger extends Hamburger{
 

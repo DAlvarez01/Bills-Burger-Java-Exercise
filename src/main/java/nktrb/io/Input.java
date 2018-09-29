@@ -1,6 +1,6 @@
-package io;
+package nktrb.io;
 
-import calc.Order;
+import nktrb.calc.Order;
 
 import java.util.Scanner;
 

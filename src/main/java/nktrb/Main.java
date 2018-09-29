@@ -1,4 +1,6 @@
-import calc.Order;
+package nktrb;
+
+import nktrb.calc.Order;
 
 public class Main {
 

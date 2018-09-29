@@ -1,4 +1,4 @@
-package calc;
+package nktrb.calc;
 
 public class Calculate {
 

@@ -1,4 +1,4 @@
-package data;
+package nktrb.data;
 
 public class DeluxeBurger extends Hamburger{
     public DeluxeBurger(String meat, String bun) {
