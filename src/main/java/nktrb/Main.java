@@ -1,17 +1,11 @@
 package nktrb;
 
-import nktrb.calc.Order;
+import nktrb.data.Sides;
+import nktrb.input.Input;
 
 public class Main {
 
     public static void main(String[] args) {
-
-        int i = 1;
-        boolean flag = true;
-        //infinite loop
-        while (flag) {
-            Order test = new Order(i);
-            i++;
-        }
+        Input.InputMenu();
     }
 }

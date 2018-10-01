@@ -1,22 +1,21 @@
 package nktrb.data;
 
-public class Hamburger {
-    double price;
-    String meat;
-    String bun;
+public class Hamburger extends MenuItem {
+    private String meat;
+    private String bun;
 
-    public Hamburger(String meat, String bun) {
-        this.price = 7.0;
+    public Hamburger(int id, String name, double price, String meat, String bun) {
+        super(id, name, price);
         this.meat = meat;
         this.bun = bun;
     }
 
-    public String getBun() {
-        return bun;
+    public String getMeat() {
+        return meat;
     }
 
-    public double getPrice() {
-        return price;
+    public String getBun() {
+        return bun;
     }
 }
 
