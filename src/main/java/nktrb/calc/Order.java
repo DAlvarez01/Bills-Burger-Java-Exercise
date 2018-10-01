@@ -25,12 +25,18 @@ public class Order {
     public void addBurgerToOrder(int id, String meat, String bun) {
         if (id == 1000) {
             orderList.add(MenuItem.createHamburger(meat, bun));
+            meatType = meat;
+            bunType = bun;
         }
         if (id == 1001) {
             orderList.add(MenuItem.createHealthyBurger(meat));
+            meatType = meat;
+            bunType = "Brown Rye Bread"; //todo
         }
         if (id == 1002) {
             orderList.add(MenuItem.createDeluxeBurger(meat, bun));
+            meatType = meat;
+            bunType = bun;
         }
 
     }
@@ -51,6 +57,7 @@ public class Order {
     public void printReceipt(){
         System.out.println("\nOrder number is " + orderNumber);
         Output.printReceipt();
+        Output.printMeatAndBunType(meatType,bunType);
         passToOutput(orderList);
     }
 
