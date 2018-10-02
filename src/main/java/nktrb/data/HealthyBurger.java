@@ -1,9 +1,9 @@
 package nktrb.data;
 
-public class HealthyBurger extends Hamburger{
+public class HealthyBurger extends Hamburger {
 
-    public HealthyBurger(String meat) {
-        super(meat, "Brown Rye Bread");
-        this.price = 12.0;
+
+    public HealthyBurger(int id, String name, double price, String meat) {
+        super(id, name, price, meat, "Brown Rye Bread");
     }
 }
